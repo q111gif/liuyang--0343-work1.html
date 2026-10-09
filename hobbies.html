@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - 刘阳</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+        nav {
+            background-color: rgba(0,0,0,0.3);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+        }
+        .nav-wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .info-item {
+            font-size: 18px;
+            line-height: 2;
+            margin:12px 0;
+        }
+        footer {
+            text-align:center;
+            padding:30px;
+            opacity:0.7;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrap">
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我</a>
+            <a href="hobbies.html">兴趣爱好</a>
+            <a href="contact.html">联系我</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h1>欢迎来到我的个人主页</h1>
+            <div class="info-item">👤 姓名：刘阳</div>
+            <div class="info-item">🎓 学校：山东师范大学</div>
+            <div class="info-item">💻 专业：计算机科学与技术</div>
+            <div class="info-item">📍 家乡：陕西咸阳</div>
+            <div class="info-item">✨ 目标：网络安全渗透测试方向</div>
+            <p style="margin-top:25px; font-size:17px; line-height:1.8;">
+                我是一名大二计算机专业学生，热爱编程与网络安全，平时喜欢阅读小说、跑步。
+                希望不断学习提升自己，朝着网络安全方向稳步前进。
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 刘阳个人主页
+    </footer>
+</body>
+</html>
